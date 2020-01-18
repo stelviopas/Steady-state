@@ -1,0 +1,39 @@
+What we want to show in the presentation: 
+1. WHY steady state is important 
+HOW : example of the Sodium-Potassium pump
+
+2. HOW can we derive the solution of the steady state analytically? 
+-- dynamic mass-balance equations setted to zero
+-- time course simulation with time goes to infinity
+
+3. HOW can we perform the SS state calculations numerically in silico?
+WHY numrically? faster/ too complicated to calculate analytically
+
+-- time course simulation for a long time 
+-- Numerical methods of calculating roots : e.g. Newton method 
+-- Intuition
+-- Extension to many reactions
+-- Detour: Jakobian matrix 
+-- Restrictions/ disadvantages/ alternative methods 
+
+4. HOW Tellurium computes it
+
+5. WHICH SS do exist ? 
+Stable/unstable steady state
+proof 
+
+6. HOW can we explore our model, given the SS? 
+Perturbations 
+Sensitivity analysis
+
+
+
+Question: 
+1. Conserved cycles : how can we reduce matrix and get the differential equations we got? 
+2. Stable/unstable steady state: why it makes sense for the prediction? There is no perturbations during the simulation. 
+
+Improvements : 
+slide 6: delete brackets 
+Where is tellurium ss.evaluate slide? 
+
+
